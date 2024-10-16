@@ -8652,6 +8652,13 @@ public final class Settings {
         public static final String CHARGING_VIBRATION_ENABLED = "charging_vibration_enabled";
 
         /**
+         * Immersive Navigation gesture
+         * @hide
+         */
+        @Readable
+        public static final String IMMERSIVE_NAVIGATION = "immersive_navigation";
+        
+        /**
          * If 0, turning on dnd manually will last indefinitely.
          * Else if non-negative, turning on dnd manually will last for this many minutes.
          * Else (if negative), turning on dnd manually will surface a dialog that prompts
